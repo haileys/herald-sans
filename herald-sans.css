@@ -1,0 +1,18 @@
+#header-logo {
+    background:none !important;
+}
+
+#header-logo a {
+    color:#000000 !important;
+    text-align:center !important;
+    text-indent:0 !important;
+    overflow:visible !important;
+}
+
+#header-logo a,
+#content *,
+#nav a,
+#footer ul li
+{
+    font-family:"Comic Sans MS" !important;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Herald Sans",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Herald Sun, Comic Sans, you figure out the rest",
+  "homepage_url": "https://github.com/charliesome/herald-sans",
+  "permissions": [
+    "http://www.heraldsun.com.au/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.heraldsun.com.au/*"
+      ],
+      "css": [
+        "herald-sans.css"
+      ]
+    }
+  ]
+}
